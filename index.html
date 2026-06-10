@@ -4,99 +4,200 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>STECOM Multipurpose Venture</title>
+
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
 body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f5f5f5;
+background:#f5f5f5;
+color:#333;
 }
+
 header{
-    background:#6A0DAD;
-    color:white;
-    padding:20px;
-    text-align:center;
+background:linear-gradient(135deg,#6A0DAD,#8B4513);
+color:white;
+text-align:center;
+padding:30px 20px;
 }
+
+header img{
+width:180px;
+max-width:90%;
+margin-bottom:15px;
+border-radius:15px;
+background:white;
+padding:10px;
+}
+
+header h1{
+font-size:2rem;
+margin-bottom:10px;
+}
+
 .hero{
-    background:#8B4513;
-    color:white;
-    padding:60px 20px;
-    text-align:center;
+padding:60px 20px;
+text-align:center;
+background:white;
 }
+
+.hero h2{
+color:#6A0DAD;
+font-size:2rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.1rem;
+max-width:700px;
+margin:auto;
+}
+
 .services{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    padding:20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+padding:40px 20px;
+max-width:1200px;
+margin:auto;
 }
+
 .card{
-    background:white;
-    width:300px;
-    margin:10px;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,.1);
+transition:.3s;
 }
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:#6A0DAD;
+margin-bottom:10px;
+}
+
 .contact{
-    background:#6A0DAD;
-    color:white;
-    padding:20px;
-    text-align:center;
+background:#6A0DAD;
+color:white;
+text-align:center;
+padding:40px 20px;
 }
+
 footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:15px;
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
 }
 </style>
+
 </head>
 <body>
 
 <header>
-    <img src="logo.png" alt="STECOM Logo" style="width:180px;max-width:90%;margin-bottom:15px;">
-    <h1>STECOM Multipurpose Venture</h1>
-    <p>Multiple Solutions, One Trusted Brand</p>
+
+<img src="logo.png" alt="STECOM Logo">
+
+<h1>STECOM Multipurpose Venture</h1>
+
+<p>Quality. Trust. Value. All In One Place.</p>
+
 </header>
 
 <section class="hero">
-    <h2>Welcome to STECOM</h2>
-    <p>Professional Services in Fashion, Real Estate, Healthcare and Pet Services.</p>
+
+<h2>Welcome to STECOM</h2>
+
+<p>
+Your trusted partner for Fashion & Tailoring,
+Real Estate & Properties,
+Healthcare Services,
+and Pets & Dog Sales.
+</p>
+
 </section>
 
 <section class="services">
 
 <div class="card">
 <h3>Fashion & Tailoring</h3>
-<p>Senator wears, wedding gowns, joggers, vintage outfits, skirts and blouses.</p>
+<p>
+Custom senator wears, wedding gowns, joggers,
+vintage outfits, skirts and blouses tailored to perfection.
+</p>
 </div>
 
 <div class="card">
-<h3>Real Estate</h3>
-<p>Land sales, buildings, property management and investment opportunities.</p>
+<h3>Real Estate & Properties</h3>
+<p>
+Land sales, houses, buildings, investment opportunities,
+and property management services.
+</p>
 </div>
 
 <div class="card">
 <h3>Healthcare Services</h3>
-<p>Professional healthcare support and wellness solutions.</p>
+<p>
+Professional healthcare support, wellness services,
+and quality care solutions.
+</p>
 </div>
 
 <div class="card">
-<h3>Pets & Dogs</h3>
-<p>Sales of quality dogs, pets and pet-related services.</p>
+<h3>Pets & Dog Sales</h3>
+<p>
+Healthy dogs, pets, pet accessories,
+and pet care services.
+</p>
 </div>
 
 </section>
 
 <section class="contact">
-<h2>Contact Us</h2>
-<p>📞 07034540983</p>
-<p>📱 WhatsApp: 08103163822</p>
+
+<h2>Contact STECOM</h2>
+
 <p>📍 Akure, Ondo State, Nigeria</p>
+<br>
+
+<p>📞 07034540983</p>
+<br>
+
+<p>📱 WhatsApp: 08103163822</p>
+
 </section>
 
 <footer>
-© 2026 STECOM Multipurpose Venture. All Rights Reserved.
+
+© 2026 STECOM Multipurpose Venture.
+All Rights Reserved.
+
 </footer>
+
+<a class="whatsapp"
+href="https://wa.me/2348103163822">
+WhatsApp Us
+</a>
 
 </body>
 </html>
