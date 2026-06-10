@@ -1,0 +1,15 @@
+:root{
+  --purple:#6A0DAD;
+  --brown:#8B4513;
+}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+}
+
+header{
+  background:var(--purple);
+  color:white;
+  padding:15px;
+}
