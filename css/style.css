@@ -22,3 +22,16 @@ header{
     display:block;
     max-width:100%;
 }
+.service-section{
+    background:white;
+    margin:20px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.service-section h2{
+    color:#6A0DAD;
+    margin-bottom:10px;
+}
