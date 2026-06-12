@@ -116,6 +116,37 @@ text-decoration:none;
 font-weight:bold;
 box-shadow:0 4px 10px rgba(0,0,0,.2);
 }
+.gallery{
+padding:50px 20px;
+background:#f8f8f8;
+}
+
+.gallery h2{
+text-align:center;
+color:#6A0DAD;
+margin:40px 0 20px;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+max-width:1200px;
+margin:auto;
+}
+
+.gallery-card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 10px rgba(0,0,0,.1);
+text-align:center;
+transition:.3s;
+}
+
+.gallery-card:hover{
+transform:translateY(-5px);
+}
 </style>
 
 </head>
@@ -181,7 +212,85 @@ and pet care services.
 </div>
 
 </section>
+<section class="gallery">
 
+<h2>Fashion & Tailoring</h2>
+
+<div class="gallery-grid">
+    <div class="gallery-card">
+        <h3>Senator Wears</h3>
+        <p>Premium senator styles tailored to perfection.</p>
+    </div>
+
+    <div class="gallery-card">
+        <h3>Wedding Gowns</h3>
+        <p>Elegant bridal gowns for special occasions.</p>
+    </div>
+
+    <div class="gallery-card">
+        <h3>Vintage & Casual Wear</h3>
+        <p>Stylish outfits designed for comfort and class.</p>
+    </div>
+</div>
+
+<h2>Real Estate & Properties</h2>
+
+<div class="gallery-grid">
+    <div class="gallery-card">
+        <h3>Land Sales</h3>
+        <p>Verified plots and investment opportunities.</p>
+    </div>
+
+    <div class="gallery-card">
+        <h3>Residential Buildings</h3>
+        <p>Quality homes and apartments.</p>
+    </div>
+
+    <div class="gallery-card">
+        <h3>Commercial Properties</h3>
+        <p>Business and office properties available.</p>
+    </div>
+</div>
+
+<h2>Healthcare Services</h2>
+
+<div class="gallery-grid">
+    <div class="gallery-card">
+        <h3>Healthcare Support</h3>
+        <p>Professional healthcare assistance.</p>
+    </div>
+
+    <div class="gallery-card">
+        <h3>Wellness Services</h3>
+        <p>Helping clients maintain healthy lifestyles.</p>
+    </div>
+
+    <div class="gallery-card">
+        <h3>Medical Consultation</h3>
+        <p>Reliable healthcare guidance and support.</p>
+    </div>
+</div>
+
+<h2>Pets & Dog Sales</h2>
+
+<div class="gallery-grid">
+    <div class="gallery-card">
+        <h3>Healthy Puppies</h3>
+        <p>Quality dog breeds available.</p>
+    </div>
+
+    <div class="gallery-card">
+        <h3>Pet Accessories</h3>
+        <p>Food, toys and pet essentials.</p>
+    </div>
+
+    <div class="gallery-card">
+        <h3>Pet Care</h3>
+        <p>Professional care and support for pets.</p>
+    </div>
+</div>
+
+</section>
 <section class="contact">
 
 <h2>Contact STECOM</h2>
