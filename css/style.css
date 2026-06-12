@@ -13,3 +13,12 @@ header{
   color:white;
   padding:15px;
 }
+.showcase{
+    width:100%;
+}
+
+.showcase img{
+    width:100%;
+    display:block;
+    max-width:100%;
+}
