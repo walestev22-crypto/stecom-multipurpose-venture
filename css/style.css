@@ -35,3 +35,18 @@ header{
     color:#6A0DAD;
     margin-bottom:10px;
 }
+.quick-links{
+    text-align:center;
+    padding:20px;
+}
+
+.quick-links a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 20px;
+    background:#6A0DAD;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
