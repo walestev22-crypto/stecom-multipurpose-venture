@@ -129,3 +129,34 @@ footer{
     margin:auto;
     line-height:1.8;
 }
+.gallery-section{
+    padding:60px 20px;
+    text-align:center;
+    background:#f9f9f9;
+}
+
+.gallery-section h2{
+    color:#6A0DAD;
+    margin-bottom:30px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    transition:transform 0.3s ease;
+}
+
+.gallery img:hover{
+    transform:scale(1.03);
+}
