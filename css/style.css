@@ -5,12 +5,25 @@ body{
 }
 
 header{
-    background:#6A0DAD;
-    color:white;
+    background:white;
     text-align:center;
-    padding:30px 20px;
+    padding:20px;
+    border-bottom:4px solid #6A0DAD;
+}
+nav{
+    margin-bottom:20px;
 }
 
+nav a{
+    text-decoration:none;
+    color:#6A0DAD;
+    font-weight:bold;
+    margin:0 12px;
+}
+
+nav a:hover{
+    color:#8B5A2B;
+}
 .logo{
     width:120px;
     margin-bottom:10px;
@@ -19,8 +32,10 @@ header{
 .hero{
     text-align:center;
     padding:60px 20px;
+    background:#f9f9f9;
 }
 
 .hero h2{
     color:#6A0DAD;
+    font-size:2rem;
 }
