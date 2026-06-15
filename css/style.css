@@ -113,3 +113,19 @@ footer{
     text-align:center;
     padding:20px;
 }
+.about{
+    padding:60px 20px;
+    text-align:center;
+    background:white;
+}
+
+.about h2{
+    color:#6A0DAD;
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
