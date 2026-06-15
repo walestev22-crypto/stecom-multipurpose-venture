@@ -66,3 +66,6 @@ nav a:hover{
     border-radius:10px;
     box-shadow:0 2px 8px rgba(0,0,0,.1);
 }
+#properties .service-card{
+    border-left:5px solid #6A0DAD;
+}
